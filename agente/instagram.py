@@ -19,7 +19,7 @@ import time
 
 import requests
 
-URL_PADRAO = "https://graph.instagram.com/v23.0"
+URL_PADRAO = "https://graph.facebook.com/v21.0"
 
 
 class ErroInstagram(RuntimeError):
