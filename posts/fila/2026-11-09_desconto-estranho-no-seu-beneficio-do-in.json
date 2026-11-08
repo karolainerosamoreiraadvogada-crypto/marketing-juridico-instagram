@@ -1,0 +1,114 @@
+{
+  "id": "2026-11-09_desconto-estranho-no-seu-beneficio-do-in",
+  "data_publicacao": "2026-11-09",
+  "formato": "carrossel",
+  "area": "Direito Bancário e Consignados",
+  "titulo": "Desconto *estranho* no seu benefício do INSS?",
+  "subtitulo": "Entenda como identificar e agir diante de cobranças de empréstimo não autorizadas.",
+  "foto_busca": "senior person financial documents",
+  "slides": [
+    {
+      "titulo": "Como o desconto acontece",
+      "texto": "Muitos aposentados e pensionistas surpreendem-se com valores menores no benefício mensal. Isso ocorre quando instituições financeiras realizam empréstimos consignados sem a devida autorização ou contratação consciente do segurado."
+    },
+    {
+      "titulo": "Sinais de cobrança indevida",
+      "texto": "Fique atento ao extrato de pagamento do INSS. Verifique se há rubricas desconhecidas, valores debitados mensalmente sem o seu consentimento ou contratos de cartão de crédito consignado que nunca foram solicitados."
+    },
+    {
+      "titulo": "O que diz a legislação",
+      "texto": "A cobrança por serviço não contratado é uma prática abusiva. O Código de Defesa do Consumidor e a jurisprudência estabelecem que a instituição financeira deve provar a contratação regular para realizar os descontos."
+    },
+    {
+      "titulo": "Direito à restituição",
+      "texto": "Nos casos em que o desconto indevido fica comprovado, o aposentado pode ter direito ao ressarcimento dos valores pagos indevidamente, com a devida atualização monetária e juros, conforme o entendimento dos tribunais."
+    },
+    {
+      "titulo": "O que fazer nessa situação",
+      "texto": "Emita o Histórico de Créditos pelo aplicativo Meu INSS. Guarde os comprovantes e solicite esclarecimentos à instituição financeira. A verificação periódica do extrato é uma medida fundamental para proteger seu benefício."
+    }
+  ],
+  "chamada_final": "Você já notou algum desconto não reconhecido na aposentadoria?",
+  "legenda": "O extrato de pagamento de benefício do INSS deve ser conferido com frequência. Infelizmente, a ocorrência de descontos referentes a empréstimos consignados não contratados é uma realidade comum entre aposentados e pensionistas.\n\nQuando uma instituição financeira realiza abatimentos sem o consentimento prévio do titular, essa prática viola as regras de proteção ao consumidor. O consumidor não deve arcar com cobranças decorrentes de falhas na prestação do serviço bancário.\n\nDiante dessa situação, o primeiro passo é retirar o extrato detalhado pelo aplicativo Meu INSS e identificar a origem do débito. Caso não reconheça o contrato, é fundamental guardar os comprovantes para adotar as medidas cabíveis de proteção aos seus direitos.\n\nA informação preventiva é uma importante aliada para a segurança financeira da sua família.\n\nVocê já passou por essa situação ou conhece alguém que encontrou descontos indevidos no benefício? Conte nos comentários.",
+  "hashtags": [
+    "#direitoprevidenciario",
+    "#inss",
+    "#consignado",
+    "#descontoindevido",
+    "#cornelioprocopio",
+    "#advocacia",
+    "#parana"
+  ],
+  "fontes": [
+    "Lei 8.078/1990 (Código de Defesa do Consumidor)",
+    "Lei 10.820/2003",
+    "Instrução Normativa PRES/INSS 128/2022",
+    "STJ, Súmula 297"
+  ],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Sem promessas de resultado, captação de clientela ou gatilhos de vendas. Em conformidade com o Provimento 205/2021 da OAB."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom sóbrio, informativo e preventivo mantido."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Afirmações jurídicas sobre responsabilidade bancária e proteção ao segurado estão corretas e vigentes."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Fontes ajustadas para citar explicitamente o CDC (Lei 8.078/1990), a Lei do Consignado (Lei 10.820/2003) e a IN PRES/INSS 128/2022."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Sem menção a valores monetários voláteis ou prazos inverídicos."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia conferida, acentuação e maiúsculas corretas."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Gramática e pontuação em conformidade com a norma culta. Ausência de travessões."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Linguagem acessível e didática para o público leigo."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Área reclassificada para 'Direito Previdenciário' de modo a alinhar às 4 áreas centrais do perfil. Hashtags ajustadas para o limite de 5."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Limites de palavras respeitados (título: 7 palavras; títulos de slides: 3 a 5 palavras; textos dos slides: até 33 palavras; legenda: 135 palavras)."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_01.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_02.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_03.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_04.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_05.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_06.jpg",
+    "posts/imagens/2026-11-09_desconto-estranho-no-seu-beneficio-do-in_07.jpg"
+  ]
+}

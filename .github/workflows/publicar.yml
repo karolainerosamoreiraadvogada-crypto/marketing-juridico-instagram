@@ -1,0 +1,58 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    # Feed às 21h (Brasília) = 00h (UTC) do dia seguinte. Roda todos os dias: os posts
+    # comuns saem seg/qua/sex e os de datas comemorativas, no próprio dia da data.
+    # Sem post na fila para a data, a execução termina sem publicar nada.
+    # O GitHub pode atrasar alguns minutos em horários de pico.
+    - cron: "0 0 * * *"
+    # Manhã: 10h (Brasília) = 13h (UTC), só para posts com "horario": "10h"
+    # (ex.: Dia das Crianças, 12/10/2026). Sem post marcado, termina sem publicar.
+    - cron: "0 13 * * *"
+    # Tarde: 18h (Brasília) = 21h (UTC), só para posts com "horario": "18h" (teste de horário).
+    - cron: "0 21 * * *"
+    # Stories: sábado às 14h (Brasília) = sábado 17h (UTC).
+    - cron: "0 17 * * 6"
+  workflow_dispatch:
+    inputs:
+      simular:
+        description: "Só simular (não publica)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repositorio
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Publicar posts do dia
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_URL: ${{ vars.IG_GRAPH_URL }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: python main.py publicar ${{ inputs.simular && '--simular' || '' }}
+
+      - name: Registrar publicação no repositório
+        run: |
+          git config user.name "agente-marketing"
+          git config user.email "agente-marketing@users.noreply.github.com"
+          git add posts/
+          git diff --cached --quiet || (git commit -m "Post publicado no Instagram" && git pull --rebase && git push)

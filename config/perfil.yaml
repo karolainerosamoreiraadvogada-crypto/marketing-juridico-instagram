@@ -1,0 +1,79 @@
+# ============================================================
+# PERFIL: Dra. Karolaine Rosa Moreira (OAB/PR 125.692)
+# Marketing Jurídico Educativo em Conformidade com o Provimento 205/2021 CFOAB
+# ============================================================
+
+advogado:
+  nome: "Karolaine Rosa Moreira"
+  assinatura: "KAROLAINE ROSA MOREIRA"
+  oab: "OAB/PR 125.692"
+  instagram: "@karolainemoreira.adv"
+  cidade: "Cornélio Procópio/PR"
+
+tom_de_voz: >
+  Elegante, sóbrio, acolhedor e didático. Linguagem simples, sem juridiquês,
+  frases curtas, norma culta. Informa e provoca reflexão sem sensacionalismo.
+  Postura ética e estrita observância ao Provimento 205/2021 da OAB.
+
+publico: >
+  Aposentados, pensionistas, consumidores, pequenos empresários e famílias de
+  Cornélio Procópio, região do Norte Pioneiro e Paraná. Pessoas leigas que
+  buscam orientação preventiva e proteção contra abusividades.
+
+# Áreas de conteúdo. "peso" = proporção no calendário.
+areas:
+  - nome: "Direito Bancário e Consignados"
+    peso: 10
+    temas_exemplo: ["fraude do empréstimo consignado não contratado", "descontos indevidos de cartão RMC e RCC",
+                    "juros abusivos em financiamentos", "ação de superendividamento (Lei 14.181/2021)",
+                    "devolução em dobro do indébito (Tema 929 STF e EAREsp 676.608)", "golpe do falso intermediário bancário"]
+  - nome: "Direito Previdenciário (INSS)"
+    peso: 6
+    temas_exemplo: ["regras de transição da EC 103/2019", "planejamento previdenciário e descarte de contribuições",
+                    "BPC/LOAS para idosos e PCD", "pensão por morte e dependentes",
+                    "tempo especial e conversão (Tema 1.090/STJ)", "revisão de benefícios e decadência"]
+  - nome: "Regularização Imobiliária"
+    peso: 4
+    temas_exemplo: ["usucapião extrajudicial em cartório", "contrato de gaveta x escritura x registro",
+                    "adjudicação compulsória extrajudicial", "imóvel de herança e inventário",
+                    "regularização fundiária urbana (REURB)", "ITBI e transmissão imobiliária"]
+  - nome: "Direito do Consumidor e Contratos"
+    peso: 3
+    temas_exemplo: ["negativação indevida e dano moral in re ipsa", "cobranças abusivas de tarifas bancárias",
+                    "cláusulas contratuais leoninas", "cancelamento de serviços essenciais"]
+
+# Formatos do feed
+formatos:
+  carrossel: 1
+  reel: 1
+
+calendario:
+  dias_semana: [0, 2, 4]   # feed: segunda, quarta e sexta, às 21h (horário de Brasília)
+  stories_dias: [5]        # stories descontraídos: sábado, às 14h (horário de Brasília)
+  posts_por_lote: 3
+
+# Metas de engajamento ético
+kpis:
+  engajamento_minimo: 0.05
+  alcance_por_post: 300
+  comentarios_por_post: 2
+  salvamentos_por_post: 5
+  novos_seguidores_mes: 30
+
+# Identidade visual oficial do escritório
+visual:
+  cor_escura: "#5C1124"        # Bordô institucional oficial
+  cor_destaque: "#C8A96E"      # Dourado nobre
+  cor_destaque_clara: "#E2CCA0"
+  cor_clara: "#FDFBF7"         # Creme claro
+  cor_areia: "#E8DEC8"
+  cor_texto_escuro: "#26050D"
+
+alcance:
+  max_hashtags: 5
+  story_aviso: true
+
+hashtags_fixas:
+  - "#advocacia"
+  - "#cornelioprocopio"
+  - "#parana"

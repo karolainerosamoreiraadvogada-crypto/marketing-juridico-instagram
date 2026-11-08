@@ -1,0 +1,88 @@
+name: Programação mensal de posts (reserva, via Gemini)
+
+# O redator oficial é o Claude: a programação mensal é escrita pelo Claude a
+# pedido da Dra. Dirciléia e enviada ao repositório após a aprovação dela.
+# Este workflow fica apenas como reserva (execução manual) e só funciona se o
+# secret GEMINI_API_KEY for cadastrado.
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "O que gerar"
+        type: choice
+        default: "mês inteiro"
+        options:
+          - "mês inteiro"
+          - "lote avulso"
+      mes:
+        description: "Mês (AAAA-MM). Vazio = mês atual"
+        default: ""
+      quantidade:
+        description: "Lote avulso: quantos posts"
+        default: "3"
+      tema:
+        description: "Lote avulso: tema específico (opcional)"
+        default: ""
+      area:
+        description: "Lote avulso: área"
+        type: choice
+        default: "rodízio automático"
+        options:
+          - "rodízio automático"
+          - "Direito Imobiliário"
+          - "Direito Previdenciário"
+          - "Direito Tributário"
+          - "Direito Empresarial"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      BRANCH: posts/programacao-${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Gerar posts (Gemini + revisão em 10 etapas)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          URL_IMAGENS_PR: https://raw.githubusercontent.com/${{ github.repository }}/${{ env.BRANCH }}/
+          MODO: ${{ inputs.modo || 'mês inteiro' }}
+          MES: ${{ inputs.mes }}
+          QTD: ${{ inputs.quantidade }}
+          TEMA: ${{ inputs.tema }}
+          AREA: ${{ inputs.area }}
+        run: |
+          if [ "$MODO" = "mês inteiro" ]; then
+            ARGS=(gerar-mes --resumo-pr resumo_pr.md)
+            if [ -n "$MES" ]; then ARGS+=(--mes "$MES"); fi
+          else
+            ARGS=(gerar --resumo-pr resumo_pr.md)
+            if [ -n "$QTD" ]; then ARGS+=(--quantidade "$QTD"); fi
+            if [ -n "$TEMA" ]; then ARGS+=(--tema "$TEMA"); fi
+            if [ -n "$AREA" ] && [ "$AREA" != "rodízio automático" ]; then ARGS+=(--area "$AREA"); fi
+          fi
+          python main.py "${ARGS[@]}"
+
+      - name: Abrir Pull Request para aprovação
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: ${{ env.BRANCH }}
+          title: "Programação para aprovação (${{ inputs.mes || 'mês atual' }})"
+          body-path: resumo_pr.md
+          commit-message: "Programação de posts gerada pelo agente"
+          add-paths: posts/
+          delete-branch: true

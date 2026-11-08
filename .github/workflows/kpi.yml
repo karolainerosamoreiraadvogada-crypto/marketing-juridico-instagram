@@ -1,0 +1,70 @@
+name: Monitoramento de KPIs
+
+on:
+  schedule:
+    - cron: "0 22 * * *"   # todo dia, 19h (Brasília): coleta das métricas
+  workflow_dispatch:
+    inputs:
+      relatorio:
+        description: "Gerar relatório agora"
+        type: choice
+        default: "nenhum"
+        options: ["nenhum", "semanal", "mensal"]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: repositorio
+  cancel-in-progress: false
+
+jobs:
+  kpi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Coletar métricas do Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_URL: ${{ vars.IG_GRAPH_URL }}
+        run: python main.py kpi-coletar
+
+      - name: Definir relatório do dia
+        id: tipo
+        env:
+          PEDIDO: ${{ inputs.relatorio }}
+        run: |
+          TIPO="nenhum"
+          # domingo à noite: relatório semanal; último dia do mês: relatório mensal
+          if [ "$(date -u +%u)" = "7" ]; then TIPO="semanal"; fi
+          if [ "$(date -u -d tomorrow +%d)" = "01" ]; then TIPO="mensal"; fi
+          if [ -n "$PEDIDO" ] && [ "$PEDIDO" != "nenhum" ]; then TIPO="$PEDIDO"; fi
+          echo "tipo=$TIPO" >> "$GITHUB_OUTPUT"
+
+      - name: Gerar relatório e abrir Issue
+        if: steps.tipo.outputs.tipo != 'nenhum'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TIPO: ${{ steps.tipo.outputs.tipo }}
+        run: |
+          DIAS=7; [ "$TIPO" = "mensal" ] && DIAS=30
+          ARQ="relatorios/$(date -u +%Y-%m-%d)-$TIPO.md"
+          python main.py kpi-relatorio --dias "$DIAS" --saida "$ARQ" > /dev/null
+          gh issue create --title "Relatório $TIPO de KPIs ($(date -u +%d/%m/%Y))" --body-file "$ARQ"
+
+      - name: Salvar histórico
+        run: |
+          git config user.name "agente-marketing"
+          git config user.email "agente-marketing@users.noreply.github.com"
+          git add dados/ relatorios/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Métricas de $(date -u +%d/%m/%Y)" && git pull --rebase && git push)
