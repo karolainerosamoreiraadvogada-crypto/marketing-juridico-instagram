@@ -109,7 +109,9 @@ class Instagram:
         return self._publicar_container(container)
 
     def perfil(self) -> dict:
-        return self._req("GET", "me", fields="user_id,username,followers_count,media_count")
+        alvo = self.user_id if "graph.facebook.com" in self.base else "me"
+        campos = "id,username,followers_count,media_count,name" if alvo != "me" else "user_id,username,followers_count,media_count"
+        return self._req("GET", alvo, fields=campos)
 
     def renovar_token(self) -> dict:
         """Gera um novo token de 60 dias (o atual precisa ter mais de 24h e estar válido)."""
