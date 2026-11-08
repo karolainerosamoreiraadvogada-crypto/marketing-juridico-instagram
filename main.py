@@ -110,13 +110,12 @@ def cmd_listar(_args):
         print(f"{p['data_publicacao']}  {p['formato']:9}  {p.get('titulo', p['id'])}")
 
 
-FIXAS = {"#abcpaulista", "#advocacia", "#saobernardodocampo"}
-
-
 def hashtags_finais(post: dict, maximo: int = 5) -> list[str]:
-    """As mais específicas do tema + #saobernardodocampo, sem repetir (máximo 5)."""
-    temas = [h for h in post.get("hashtags", []) if h not in FIXAS]
-    return list(dict.fromkeys(temas[: maximo - 1] + ["#saobernardodocampo"]))[:maximo]
+    """As mais específicas do tema + hashtags regionais do escritório (máximo 5)."""
+    fixas = carregar_perfil().get("hashtags_fixas", ["#advocacia", "#cornelioprocopio", "#parana"])
+    temas = [h for h in post.get("hashtags", []) if h not in fixas]
+    regional = "#cornelioprocopio"
+    return list(dict.fromkeys(temas[: maximo - 1] + [regional]))[:maximo]
 
 
 def turno_atual() -> str:
