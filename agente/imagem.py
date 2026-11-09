@@ -1,3 +1,25 @@
+def _copiar_para_google_drive(caminhos: list[Path], post: dict):
+    try:
+        drive_base = Path("G:/Meu Drive")
+        if not drive_base.exists():
+            return
+        escritorio = next((p for p in drive_base.glob("*") if "escrit" in p.name.lower()), None)
+        if not escritorio:
+            return
+        karolaine = next((p for p in escritorio.glob("*") if "karolaine" in p.name.lower()), None)
+        alvo = (karolaine or escritorio) / "Posts - Instagram e TikTok"
+        alvo.mkdir(parents=True, exist_ok=True)
+        import shutil
+        for c in caminhos:
+            shutil.copy2(c, alvo / c.name)
+        if post.get("legenda"):
+            txt_path = alvo / f"{post.get('id', 'post')}_legenda.txt"
+            tags = " ".join(post.get("hashtags", []))
+            txt_path.write_text(f"TÍTULO: {post.get('titulo', '')}\n\nLEGENDA:\n{post.get('legenda', '')}\n\nHASHTAGS:\n{tags}\n", encoding="utf-8")
+    except Exception:
+        pass
+
+
 """Gera as lâminas dos posts (1080x1350, 4:5) no estilo do perfil.
 
 Capa: foto em tela cheia + degradê vinho + título em Bodoni Moda.
@@ -373,4 +395,5 @@ def gerar_imagens(post: dict, perfil: dict, pasta: Path) -> list[Path]:
         caminho = pasta / f"{post['id']}_{i:02d}.jpg"
         img.save(caminho, "JPEG", quality=94, subsampling=0)
         caminhos.append(caminho)
+    _copiar_para_google_drive(caminhos, post)
     return caminhos
