@@ -1,0 +1,32 @@
+{
+  "id": "2026-11-10_reel-cobranca-abusiva",
+  "data_publicacao": "2026-11-10",
+  "formato": "reel",
+  "area": "Direito Bancário e Consignados",
+  "titulo": "Cobrança abusiva: como saber o que está sendo cobrado?",
+  "subtitulo": "Orientações práticas de proteção ao consumidor",
+  "video": "posts/videos/2026-11-10_reel-cobranca-abusiva.mp4",
+  "imagens": [
+    "posts/videos/2026-11-10_reel-cobranca-abusiva_capa.jpg"
+  ],
+  "chamada_final": "Ficou com alguma dúvida sobre cobranças no seu extrato?",
+  "legenda": "Você já conferiu detalhadamente o extrato da sua conta bancária ou o holerite do seu benefício este mês?\n\nA cobrança é considerada abusiva quando desrespeita os direitos do consumidor e impõe desvantagem excessiva, mesmo que o contrato principal esteja ativo. Na prática, isso acontece com mais frequência do que imaginamos:\n\n1. Valores excessivos e taxas sem justificativa clara comprovada;\n2. Inclusão de seguros prestamistas ou títulos não contratados (venda casada proibida pelo Tema 972 do STJ);\n3. Aumento repentino de tarifas sem comunicação prévia obrigatória;\n4. Débito recorrente de serviços ou produtos que você nunca solicitou.\n\nIdentificou qualquer uma dessas cobranças no seu extrato? O primeiro passo é solicitar formalmente o cancelamento e a devolução dos valores pagos indevidamente.\n\nCaso a instituição financeira se recuse a regularizar a situação, consulte um advogado de sua confiança para analisar a legalidade das cobranças e resguardar seus direitos perante a Justiça.\n\nSalve este vídeo para consultar quando conferir seu extrato e envie para quem também precisa ficar atento.",
+  "hashtags": [
+    "#direitodoconsumidor",
+    "#direitobancario",
+    "#cobrancaabusiva",
+    "#cornelioprocopio",
+    "#advocacia"
+  ],
+  "fontes": [
+    "Código de Defesa do Consumidor (Lei 8.078/1990, arts. 6º, III, 39, I e III, e 42)",
+    "Superior Tribunal de Justiça - Tema 972/STJ (venda casada de seguros em contratos bancários)",
+    "Súmula 479 do STJ (responsabilidade objetiva das instituições financeiras)"
+  ],
+  "advogada": {
+    "nome": "Karolaine Rosa Moreira",
+    "oab": "OAB/PR 125.692",
+    "instagram": "@karolainemoreira.adv",
+    "cidade": "Cornélio Procópio/PR"
+  }
+}
