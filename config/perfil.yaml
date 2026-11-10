@@ -48,7 +48,7 @@ formatos:
   reel: 1
 
 calendario:
-  dias_semana: [0, 2, 4]   # feed: segunda, quarta e sexta, às 21h (horário de Brasília)
+  dias_semana: [0, 2, 4]   # feed: segunda, quarta e sexta, às 12h (horário do almoço em Brasília)
   stories_dias: [5]        # stories descontraídos: sábado, às 14h (horário de Brasília)
   posts_por_lote: 3
 

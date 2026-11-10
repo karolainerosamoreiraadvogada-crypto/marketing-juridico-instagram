@@ -119,16 +119,20 @@ def hashtags_finais(post: dict, maximo: int = 5) -> list[str]:
 
 
 def turno_atual() -> str:
-    """Turno pelo horário de Brasília: 7h-11h manhã (posts com "horario": "10h"),
-    12h-16h Stories (14h), 17h-19h tarde (posts com "horario": "18h"), demais horas feed
-    das 21h (inclui atrasos do GitHub após a meia-noite)."""
+    """Turno pelo horário de Brasília:
+    11h-14h feed principal do almoço (12h),
+    14h-17h Stories de sábado (14h),
+    17h-20h tarde (18h),
+    demais horários: feed."""
     from agente.config import agora
     hora = agora().hour
-    if 7 <= hora < 12:
-        return "manha"
-    if 12 <= hora < 17:
+    if 11 <= hora < 14:
+        return "feed"
+    if 14 <= hora < 17:
         return "stories"
-    return "tarde" if 17 <= hora < 20 else "feed"
+    if 17 <= hora < 20:
+        return "tarde"
+    return "feed"
 
 
 TURNO_DO_HORARIO = {"10h": "manha", "18h": "tarde"}

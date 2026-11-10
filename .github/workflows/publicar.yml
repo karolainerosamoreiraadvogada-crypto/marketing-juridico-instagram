@@ -2,15 +2,12 @@ name: Publicar no Instagram
 
 on:
   schedule:
-    # Feed às 21h (Brasília) = 00h (UTC) do dia seguinte. Roda todos os dias: os posts
-    # comuns saem seg/qua/sex e os de datas comemorativas, no próprio dia da data.
-    # Sem post na fila para a data, a execução termina sem publicar nada.
-    # O GitHub pode atrasar alguns minutos em horários de pico.
-    - cron: "0 0 * * *"
-    # Manhã: 10h (Brasília) = 13h (UTC), só para posts com "horario": "10h"
-    # (ex.: Dia das Crianças, 12/10/2026). Sem post marcado, termina sem publicar.
+    # Feed no ALMOÇO às 12h (Brasília) = 15h (UTC). Roda todos os dias.
+    # Os posts saem seg/qua/sex (e datas especiais) no horário de pico de engajamento.
+    - cron: "0 15 * * *"
+    # Manhã: 10h (Brasília) = 13h (UTC), para posts especiais de manhã.
     - cron: "0 13 * * *"
-    # Tarde: 18h (Brasília) = 21h (UTC), só para posts com "horario": "18h" (teste de horário).
+    # Tarde: 18h (Brasília) = 21h (UTC), para posts marcados no fim da tarde.
     - cron: "0 21 * * *"
     # Stories: sábado às 14h (Brasília) = sábado 17h (UTC).
     - cron: "0 17 * * 6"
