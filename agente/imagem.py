@@ -1,3 +1,20 @@
+"""Gera as lâminas dos posts (1080x1350, 4:5) no estilo do perfil.
+
+Capa: foto em tela cheia + degradê vinho + título em Bodoni Moda.
+Internas: fundo creme, número em terracota, texto em Montserrat.
+Encerramento: fundo vinho, pergunta em itálico.
+
+No título, palavras entre *asteriscos* saem em itálico na cor de destaque.
+"""
+import re
+from pathlib import Path
+
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
+
+from .config import RAIZ
+from .fotos import obter_foto
+
+
 def _copiar_para_google_drive(caminhos: list[Path], post: dict):
     try:
         drive_base = Path("G:/Meu Drive")
@@ -18,23 +35,6 @@ def _copiar_para_google_drive(caminhos: list[Path], post: dict):
             txt_path.write_text(f"TÍTULO: {post.get('titulo', '')}\n\nLEGENDA:\n{post.get('legenda', '')}\n\nHASHTAGS:\n{tags}\n", encoding="utf-8")
     except Exception:
         pass
-
-
-"""Gera as lâminas dos posts (1080x1350, 4:5) no estilo do perfil.
-
-Capa: foto em tela cheia + degradê vinho + título em Bodoni Moda.
-Internas: fundo creme, número em terracota, texto em Montserrat.
-Encerramento: fundo vinho, pergunta em itálico.
-
-No título, palavras entre *asteriscos* saem em itálico na cor de destaque.
-"""
-import re
-from pathlib import Path
-
-from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
-
-from .config import RAIZ
-from .fotos import obter_foto
 
 LARGURA, ALTURA = 1080, 1350
 MARGEM = 90

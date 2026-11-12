@@ -19,7 +19,7 @@ class ErroLLM(RuntimeError):
     pass
 
 
-def gerar_json(prompt_sistema: str, prompt_usuario: str, tentativas: int = 3) -> dict:
+def gerar_json(prompt_sistema: str, prompt_usuario: str, tentativas: int = 5) -> dict:
     """Envia o prompt e devolve a resposta já convertida de JSON para dict."""
     chave = os.environ.get("GEMINI_API_KEY")
     if not chave:

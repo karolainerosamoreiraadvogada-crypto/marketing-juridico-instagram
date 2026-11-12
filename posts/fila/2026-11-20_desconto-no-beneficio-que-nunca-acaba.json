@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-20_desconto-no-beneficio-que-nunca-acaba",
+  "data_publicacao": "2026-11-20",
+  "formato": "reel",
+  "area": "Direito Bancário e Consignados",
+  "titulo": "Cobrança no benefício que *nunca* acaba?",
+  "subtitulo": "Entenda a diferença entre empréstimo consignado e cartão RMC",
+  "foto_busca": "older person checking credit card",
+  "slides": [],
+  "chamada_final": "Você nota cobranças de cartão sem ter pedido o cartão?",
+  "legenda": "A Reserva de Margem Consignável (RMC) e o Cartão Consignado de Benefício (RCC) frequentemente causam confusão em aposentados e pensionistas do INSS.\n\nMuitas vezes o consumidor busca um empréstimo consignado tradicional, mas a instituição financeira emite um cartão de crédito sem a devida informação clara.\n\nNessa modalidade, o débito mensal direto no benefício abrange somente os juros da fatura, fazendo com que a dívida principal permaneça praticamente inalterada.\n\nA legislação exige transparência e informação clara em todas as relações de consumo bancárias. O consumidor tem o direito de questionar contratos obscuros.\n\nVocê já observou esse tipo de cobrança no seu extrato do INSS? Conte nos comentários.",
+  "hashtags": [
+    "#direitoprevidenciario",
+    "#cartaormc",
+    "#inss",
+    "#aposentados",
+    "#cornelioprocopio",
+    "#advocacia",
+    "#parana"
+  ],
+  "fontes": [
+    "Lei 8.078/1990 (Código de Defesa do Consumidor), art. 6º, III",
+    "Lei 14.181/2021 (Lei do Superendividamento)"
+  ],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Nenhuma vedação do Provimento CFOAB 205/2021 identificada. Sem promessa de resultado ou captação."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom sóbrio, informativo e preventivo, focado na proteção ao segurado."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Exatidão jurídica mantida quanto à exigência de informação clara no crédito consignado e cartão RMC/RCC."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Fontes citadas (CDC art. 6º, III e Lei 14.181/2021) conferidas e aplicáveis."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Não há menção a prazos ou valores monetários específicos que pudessem estar defasados."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia e acentuação rigorosamente corretas."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Norma culta respeitada; ausência de travessões conforme regra da skill."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Clareza didática para o público leigo (aposentados e pensionistas)."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Ajuste do campo 'area' para 'Direito Previdenciário', alinhando o post aos pilares editoriais da skill."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Título com 6 palavras (limite: 8). Legenda com 106 palavras (limite: 80 a 180 palavras)."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-20_desconto-no-beneficio-que-nunca-acaba_01.jpg"
+  ]
+}

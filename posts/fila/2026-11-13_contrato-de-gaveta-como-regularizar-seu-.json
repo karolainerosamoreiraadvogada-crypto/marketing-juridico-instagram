@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-13_contrato-de-gaveta-como-regularizar-seu-",
+  "data_publicacao": "2026-11-13",
+  "formato": "carrossel",
+  "area": "Regularização Imobiliária",
+  "titulo": "Contrato de gaveta: como *regularizar* seu imóvel?",
+  "subtitulo": "Saiba quais são os caminhos legais para ter a escritura definitiva.",
+  "foto_busca": "house keys property documents",
+  "slides": [
+    {
+      "titulo": "O risco do documento informal",
+      "texto": "Muitas pessoas compram um imóvel apenas com contrato de gaveta ou recibo. Embora tenha valor entre quem assinou, esse documento não transfere a propriedade perante a lei nem no cartório de imóveis."
+    },
+    {
+      "titulo": "Quem não registra não é dono",
+      "texto": "No Brasil, a propriedade só é transferida com o registro da escritura pública na matrícula do imóvel. Sem o registro, o antigo dono continua constando legalmente como proprietário do bem."
+    },
+    {
+      "titulo": "A via do cartório",
+      "texto": "Se o vendedor sumiu ou se faltam documentos antigos, é possível buscar a usucapião ou a adjudicação compulsória diretamente no cartório de imóveis, sem precisar de uma ação judicial longa."
+    },
+    {
+      "titulo": "Requisitos essenciais",
+      "texto": "É necessário comprovar a posse pacífica, o pagamento do imóvel e o tempo exigido por lei. Documentos como comprovantes de residência, contas e certidões são fundamentais para comprovar seu direito."
+    }
+  ],
+  "chamada_final": "Você tem um contrato de gaveta na família?",
+  "legenda": "Comprar uma casa ou terreno apenas por contrato de gaveta é uma prática comum, mas traz riscos jurídicos significativos. Perante a legislação brasileira, a transferência da propriedade de um imóvel só ocorre com o registro do título no Cartório de Registro de Imóveis.\n\nSe o vendedor falecer, se mudar ou se recusar a assinar a escritura final, o comprador pode encontrar sérias dificuldades para vender, financiar ou deixar o bem para seus herdeiros.\n\nFelizmente, a legislação prevê caminhos mais céleres para solucionar a questão, como a usucapião extrajudicial e a adjudicação compulsória em cartório. Com a documentação correta e a comprovação da posse, é possível obter a matrícula individualizada do imóvel.\n\nSaber o estado documental da sua propriedade é o primeiro passo para proteger seu patrimônio e garantir tranquilidade para a sua família.\n\nVocê já viveu uma situação parecida na sua família? Conte nos comentários.\n\nSiga @karolainemoreira.adv para mais conteúdos informativos.",
+  "hashtags": [
+    "#regularizacaodeimoveis",
+    "#direitoimobiliario",
+    "#contratodegaveta",
+    "#usucapiao",
+    "#usucapiaoextrajudicial",
+    "#escritura",
+    "#matricula",
+    "#cornelioprocopio",
+    "#advocacia",
+    "#parana"
+  ],
+  "fontes": [
+    "Lei 10.406/2002 (Código Civil), art. 1.245",
+    "Lei 6.015/1973, art. 216-A",
+    "Lei 6.015/1973, art. 216-B"
+  ],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Nenhuma vedação da OAB detectada (sem promessas de resultado, sem mercantilização ou captação de clientela)."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom informativo, elegante e estritamente educativo."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Exatidão jurídica confirmada (art. 1.245 do CC, arts. 216-A e 216-B da LRP)."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Todas as fontes citadas existem e estão vigentes no ordenamento brasileiro."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Requisitos e institutos jurídicos apresentados de forma correta sem citar valores obsoletos."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia e acentuação rigorosamente revisadas e corretas."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Gramática e norma culta aplicadas perfeitamente; ausência de travessões."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Linguagem didática e compreensível para o leitor leigo."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Coerência e alinhamento perfeito entre título, slides, chamada final e legenda."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Limites de palavras respeitados (título: 6 palavras; slides: até 32 palavras; legenda: 139 palavras)."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_01.jpg",
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_02.jpg",
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_03.jpg",
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_04.jpg",
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_05.jpg",
+    "posts/imagens/2026-11-13_contrato-de-gaveta-como-regularizar-seu-_06.jpg"
+  ]
+}

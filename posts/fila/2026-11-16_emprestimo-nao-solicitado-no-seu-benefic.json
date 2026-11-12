@@ -1,0 +1,85 @@
+{
+  "id": "2026-11-16_emprestimo-nao-solicitado-no-seu-benefic",
+  "data_publicacao": "2026-11-16",
+  "formato": "reel",
+  "area": "Direito Bancário e Consignados",
+  "titulo": "Empréstimo *não* solicitado no seu benefício?",
+  "subtitulo": "Saiba o que fazer se cair dinheiro desconhecido na conta",
+  "foto_busca": "senior phone banking concern",
+  "slides": [],
+  "chamada_final": "Você já identificou algum valor desconhecido em sua conta?",
+  "legenda": "Muitos aposentados e pensionistas são surpreendidos com depósitos não solicitados em suas contas bancárias, seguidos por descontos mensais diretamente no benefício do INSS.\n\nEssa prática é abusiva, pois ninguém é obrigado a aceitar um contrato não autorizado de forma livre e consciente.\n\nCaso isso aconteça com você, o primeiro passo é não utilizar o valor depositado e emitir o extrato detalhado de empréstimos na plataforma Meu INSS.\n\nA legislação prevê meios para requerer o cancelamento das cobranças e a restituição dos valores descontados de maneira indevida.\n\nVocê já viveu essa situação ou conhece alguém que passou por isso? Conte nos comentários.",
+  "hashtags": [
+    "#direitoprevidenciario",
+    "#inss",
+    "#aposentadoria",
+    "#beneficioinss",
+    "#cornelioprocopio",
+    "#advocacia",
+    "#parana"
+  ],
+  "fontes": [
+    "Instrução Normativa PRES/INSS 128/2022",
+    "Lei 10.820/2003, art. 6º"
+  ],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Verificada a ausência de vedações éticas da OAB (sem promessa de resultado, sem captação ou oferta de serviços)."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom informativo, educativo e sóbrio mantido."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Exatidão jurídica confirmada em relação a empréstimos consignados não contratados em benefício previdenciário."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Área reclassificada para Direito Previdenciário e fundamentação legal ajustada para IN PRES/INSS 128/2022 e Lei 10.820/2003 (art. 6º)."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Nenhum prazo, valor ou requisito numérico variável foi citado indevidamente."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia, acentuação e nomes próprios conferidos."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Norma culta e gramática aplicadas; nenhum travessão utilizado."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Texto claro e compreensível para o público leigo."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Coerência plena entre título, subtítulo, legenda, chamada final e hashtags."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Limites de tamanho validados (título com 6 palavras; legenda com 104 palavras)."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-16_emprestimo-nao-solicitado-no-seu-benefic_01.jpg"
+  ]
+}

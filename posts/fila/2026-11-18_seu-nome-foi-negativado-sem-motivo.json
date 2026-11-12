@@ -1,0 +1,106 @@
+{
+  "id": "2026-11-18_seu-nome-foi-negativado-sem-motivo",
+  "data_publicacao": "2026-11-18",
+  "formato": "carrossel",
+  "area": "Direito do Consumidor e Contratos",
+  "titulo": "Seu nome foi *negativado* sem motivo?",
+  "subtitulo": "Entenda quando a inscrição indevida pode gerar direito a reparação",
+  "foto_busca": "worried person document desk",
+  "slides": [
+    {
+      "titulo": "O que é negativação indevida",
+      "texto": "Ocorre quando o nome é inserido nos órgãos de proteção ao crédito por dívida já paga, inexistente ou sem a prévia notificação exigida."
+    },
+    {
+      "titulo": "O dano moral presumido",
+      "texto": "A inclusão injusta gera o chamado dano moral presumido. Não é preciso demonstrar o prejuízo financeiro para ter o direito reconhecido."
+    },
+    {
+      "titulo": "Documentos importantes",
+      "texto": "Guarde comprovantes de pagamento, extratos, comprovante da restrição nos órgãos de proteção ao crédito e protocolos de atendimento."
+    },
+    {
+      "titulo": "Como agir nessa situação",
+      "texto": "Solicite imediatamente a baixa da inscrição indevida e guarde todas as certidões e comprovantes das tentativas de resolução."
+    }
+  ],
+  "chamada_final": "Seu nome já foi negativado por engano alguma vez?",
+  "legenda": "Ter o nome incluído indevidamente em cadastros de inadimplentes é uma situação constrangedora que afeta diretamente a tranquilidade e o crédito do consumidor.\n\nA jurisprudência do Superior Tribunal de Justiça estabelece que a inscrição indevida gera dano moral presumido, ou seja, a obrigação de reparar independe da prova do prejuízo sofrido.\n\nSe a dívida nunca existiu ou já havia sido quitada, a empresa tem o dever de retirar a restrição cadastral imediatamente.\n\nFique atento aos seus direitos como consumidor e mantenha guardados todos os seus comprovantes de pagamento.\n\nVocê já viveu essa situação? Conte sua experiência nos comentários.",
+  "hashtags": [
+    "#negativacaoindevida",
+    "#direitodoconsumidor",
+    "#danomoral",
+    "#spc",
+    "#serasa",
+    "#cornelioprocopio",
+    "#nortepioneiro",
+    "#advocacia",
+    "#parana"
+  ],
+  "fontes": [],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Sem vedações da OAB: ausência de captação de clientes, ofertas, preços ou promessa de resultado."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom estritamente informativo, educativo e sóbrio."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Conteúdo jurídico sobre dano moral presumido em negativação indevida está correto."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Removidos os números de lei e súmula que não constam nas tabelas de base legal da skill, conforme regra 2."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Prazos, valores e requisitos conferidos; sem menções numéricas incompatíveis."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia, acentuação e pontuação devidamente revisadas."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Gramática em norma culta respeitada; nenhum travessão utilizado."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Texto claro e acessível ao público leigo."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Limites de palavras validados: título com 6 palavras (máx. 8), títulos de slides até 5 palavras (máx. 6), textos até 23 palavras (máx. 45) e legenda com 98 palavras (intervalo 80-180)."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Estrutura e acabamento visual em conformidade com o formato carrossel."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_01.jpg",
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_02.jpg",
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_03.jpg",
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_04.jpg",
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_05.jpg",
+    "posts/imagens/2026-11-18_seu-nome-foi-negativado-sem-motivo_06.jpg"
+  ]
+}
