@@ -47,7 +47,10 @@ def _insights_post(ig, media_id: str) -> dict:
 def coletar(dias: int = 90) -> dict:
     from .instagram import Instagram
     ig = Instagram()
-    conta = ig._req("GET", "me", fields="username,followers_count,follows_count,media_count")
+    try:
+        conta = ig.perfil()
+    except Exception:
+        conta = {}
     midias = ig._req("GET", f"{ig.user_id}/media", limit=50,
                      fields="id,caption,media_type,media_product_type,timestamp,permalink,"
                             "like_count,comments_count").get("data", [])

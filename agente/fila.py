@@ -49,11 +49,9 @@ def proximas_datas(qtd: int, dias_semana: list[int]) -> list[date]:
     """Próximas datas livres nos dias da semana configurados."""
     ocupadas = {p["data_publicacao"] for p in na_fila()}
     dia = hoje() + timedelta(days=1)
-    if ocupadas:
-        dia = max(dia, date.fromisoformat(max(ocupadas)) + timedelta(days=1))
     datas = []
     while len(datas) < qtd:
-        if dia.weekday() in dias_semana:
+        if dia.weekday() in dias_semana and dia.isoformat() not in ocupadas:
             datas.append(dia)
         dia += timedelta(days=1)
     return datas

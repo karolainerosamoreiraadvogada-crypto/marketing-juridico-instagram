@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-13_auxilio-doenca-negado-inss-laudo-medico",
+  "data_publicacao": "2026-11-13",
+  "formato": "carrossel",
+  "area": "Direito Previdenciário (INSS)",
+  "titulo": "Auxílio-doença *negado* mesmo com laudo?",
+  "subtitulo": "Entenda por que o INSS indefere o pedido e como reverter a decisão",
+  "foto_busca": "doctor medical report desk",
+  "slides": [
+    {
+      "titulo": "Doença não é incapacidade",
+      "texto": "O INSS não avalia apenas o diagnóstico médico, mas se a condição de saúde impede você de exercer sua atividade profissional habitual temporariamente."
+    },
+    {
+      "titulo": "O papel do laudo médico",
+      "texto": "O laudo do seu médico assistente é fundamental, mas precisa conter o CID, histórico do tratamento, exames complementares e o tempo estimado de repouso."
+    },
+    {
+      "titulo": "Falhas comuns na perícia",
+      "texto": "Muitos pedidos são indeferidos por perícias rápidas, ausência de exames recentes ou documentos médicos sem data e assinatura legível com CRM."
+    },
+    {
+      "titulo": "Como contestar a negativa",
+      "texto": "É possível apresentar recurso administrativo no prazo de 30 dias ou buscar a via judicial, onde um perito especialista independente avaliará o caso."
+    }
+  ],
+  "chamada_final": "Você já passou por perícia médica do INSS?",
+  "legenda": "Receber a notícia de que o auxílio por incapacidade temporária (auxílio-doença) foi indeferido no INSS gera grande preocupação, especialmente quando o trabalhador possui atestados e laudos do seu médico assistente.\n\nO que muitos não sabem é que o perito da Previdência Social analisa a incapacidade para a atividade habitual de trabalho, e não apenas a existência da enfermidade.\n\nPara comprovar o direito, é essencial apresentar prontuários, exames com laudo conclusivo, receitas atualizadas e relatórios médicos detalhados que expliquem exatamente a limitação funcional para a sua profissão.\n\nSe o benefício foi negado indevidamente, o segurado pode interpor recurso administrativo no Meu INSS ou ingressar com ação judicial, na qual será realizada uma nova perícia por médico perito nomeado pela Justiça.\n\nVocê ou alguém próximo já teve o benefício negado pelo INSS? Compartilhe sua experiência nos comentários.",
+  "hashtags": [
+    "#inss",
+    "#auxiliodoenca",
+    "#previdenciasocial",
+    "#direitoprevidenciario",
+    "#periciainss",
+    "#laudomedico",
+    "#beneficionegado",
+    "#cornelioprocopio",
+    "#nortepioneiro",
+    "#advocacia"
+  ],
+  "fontes": [],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Sem vedações da OAB: ausência de captação de clientes, ofertas, preços ou promessa de resultado."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom estritamente informativo, educativo e sóbrio."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Conteúdo jurídico sobre auxílio por incapacidade temporária e critérios periciais rigorosamente de acordo com a Lei 8.213/91."
+      },
+      {
+        "etapa": "Fontes",
+        "ok": true,
+        "obs": "Sem citações alucinadas ou indevidas."
+      },
+      {
+        "etapa": "Prazos, valores e requisitos",
+        "ok": true,
+        "obs": "Prazo recursal de 30 dias do INSS conferido."
+      },
+      {
+        "etapa": "Ortografia",
+        "ok": true,
+        "obs": "Ortografia e pontuação devidamente revisadas."
+      },
+      {
+        "etapa": "Gramática e norma culta",
+        "ok": true,
+        "obs": "Linguagem culta, acessível e sem jargões desnecessários."
+      },
+      {
+        "etapa": "Clareza",
+        "ok": true,
+        "obs": "Texto claro e didático para segurados do INSS."
+      },
+      {
+        "etapa": "Coerência entre peças",
+        "ok": true,
+        "obs": "Limites de palavras e títulos respeitados."
+      },
+      {
+        "etapa": "Acabamento (tamanho dos textos)",
+        "ok": true,
+        "obs": "Estrutura equilibrada para 6 lâminas."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_01.jpg",
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_02.jpg",
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_03.jpg",
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_04.jpg",
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_05.jpg",
+    "posts/imagens/2026-11-13_auxilio-doenca-negado-inss-laudo-medico_06.jpg"
+  ]
+}
