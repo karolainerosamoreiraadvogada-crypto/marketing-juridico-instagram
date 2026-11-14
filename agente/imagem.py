@@ -376,12 +376,26 @@ class Desenhista:
 
 
 def gerar_imagens(post: dict, perfil: dict, pasta: Path) -> list[Path]:
-    """Cria as lâminas do post em JPEG (formato exigido pela API do Instagram)."""
+    """Cria as lâminas do post em JPEG (formato exigido pela API do Instagram).
+    Prioriza o motor Chrome Headless de alta fidelidade visual (HTML5/CSS3).
+    """
     pasta.mkdir(parents=True, exist_ok=True)
-    d = Desenhista(perfil)
     slides = post.get("slides", [])
 
-    if post["formato"] == "card" or not slides:
+    # Tentativa de renderização via motor Chrome Headless de alta fidelidade
+    try:
+        from .render_html import gerar_carrossel_chamariz, CHROME_PATH
+        import os
+        if os.path.exists(CHROME_PATH) and slides:
+            caminhos = gerar_carrossel_chamariz(post, pasta)
+            _copiar_para_google_drive(caminhos, post)
+            return caminhos
+    except Exception as e:
+        print(f"[AVISO] Fallback para renderizador PIL: {e}")
+
+    # Fallback clássico PIL
+    d = Desenhista(perfil)
+    if post.get("formato") == "card" or not slides:
         imagens = [d.capa(post)]
     else:
         total = len(slides) + 2
