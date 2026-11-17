@@ -177,7 +177,7 @@ def cmd_publicar(args):
         urls = [base + img for img in post["imagens"]]
         tags = hashtags_finais(post, alcance.get("max_hashtags", 5))
         legenda = (post.get("legenda", "") + "\n\n" + " ".join(tags)).strip()
-        video = base + post["video"] if post.get("formato") == "reel" else None
+        video = base + post["video"] if post.get("formato") == "reel" and post.get("video") else None
         if args.simular:
             destino = "Instagram + Facebook" if facebook.configurado() else "Instagram"
             print(f"[simulação] {post['id']} -> {destino}\n  vídeo: {video}\n  imagens: {urls}\n"
