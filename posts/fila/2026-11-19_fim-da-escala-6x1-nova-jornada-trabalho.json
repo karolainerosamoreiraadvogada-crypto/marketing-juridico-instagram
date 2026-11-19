@@ -1,0 +1,74 @@
+{
+  "id": "2026-11-19_fim-da-escala-6x1-nova-jornada-trabalho",
+  "data_publicacao": "2026-11-19",
+  "formato": "carrossel",
+  "area": "Direito do Trabalho",
+  "titulo": "O Fim do 6x1 Foi Aprovado: o que muda no seu descanso e salário",
+  "subtitulo": "Conheça a Emenda Constitucional nº 141/2026 e o calendário de transição",
+  "foto_busca": "calendar schedule workplace",
+  "slides": [
+    {
+      "titulo": "Não é mais PEC",
+      "texto": "Promulgada a Emenda Constitucional nº 141/2026, decretando o fim da escala 6x1 tradicional e garantindo 2 dias de repouso semanal (5x2)."
+    },
+    {
+      "titulo": "Salário 100% protegido",
+      "texto": "A Constituição proíbe qualquer redução salarial nominal ou proporcional. O valor da sua hora trabalhada passará a valer mais."
+    },
+    {
+      "titulo": "Calendário de transição",
+      "texto": "A redução para 40 horas semanais será progressiva: 42h a partir de 16/12/2026 e 40h a partir de 16/12/2027."
+    },
+    {
+      "titulo": "Deveres e horas extras",
+      "texto": "A partir de 16 de dezembro, qualquer trabalho que ultrapassar 42h semanais deverá ser remunerado como hora extra com adicionais legais."
+    }
+  ],
+  "chamada_final": "Sua empresa já começou a planejar a escala 5x2?",
+  "legenda": "NÃO É MAIS PROJETO: a Constituição Federal foi oficialmente alterada! O Congresso Nacional promulgou a Emenda Constitucional nº 141/2026, decretando o fim da escala 6x1 tradicional no Brasil e garantindo 2 dias de repouso semanal remunerado (escala 5x2).\n\nMas atenção: a redução de jornada tem datas oficiais de transição e regras claras para não prejudicar seu salário.\n\n👉 Arraste para o lado e entenda os 4 pontos fundamentais da nova lei:\n\n1️⃣ Não é mais PEC: com a aprovação em dois turnos na Câmara e no Senado, a medida agora é norma constitucional obrigatória em todo o país (EC nº 141/2026).\n2️⃣ Salário 100% protegido: a Constituição proíbe qualquer redução salarial (nominal ou proporcional). O valor da sua hora trabalhada passará a valer mais.\n3️⃣ Calendário de transição: a redução para 40 horas semanais será progressiva:\n   • 1ª etapa (16/12/2026): o teto já cai para 42 horas semanais.\n   • 2ª etapa (16/12/2027): o teto atinge as 40 horas semanais definitivas.\n4️⃣ Horas extras: a partir de 16 de dezembro, qualquer trabalho que ultrapassar 42h na semana deverá ser pago como hora extra com adicionais legais.\n\n💬 Trabalhadores e empresários: sua empresa já começou a desenhar as novas escalas de 5x2 para dezembro? Deixe sua dúvida nos comentários!\n\nSalva este post para não perder as datas da transição. 📌\n\n---\nDra. Karolaine Rosa Moreira | OAB/PR 125.692\nAdvocacia Estratégica e Preventiva\n📍 Cornélio Procópio/PR",
+  "hashtags": [
+    "#direitodotrabalho",
+    "#escala6x1",
+    "#fimdaescala6x1",
+    "#emendaconstitucional141",
+    "#jornadadetrabalho",
+    "#cornelioprocopio",
+    "#nortepioneiro",
+    "#advocacia",
+    "#oabpr"
+  ],
+  "fontes": [
+    "Emenda Constitucional nº 141/2026",
+    "Art. 7º, XIII e XV da Constituição Federal"
+  ],
+  "revisao": {
+    "aprovado_pelo_revisor": true,
+    "rodadas": 3,
+    "etapas": [
+      {
+        "etapa": "Ética OAB: vedações",
+        "ok": true,
+        "obs": "Sem captação indevida ou mercantilização."
+      },
+      {
+        "etapa": "Ética OAB: tom",
+        "ok": true,
+        "obs": "Tom estritamente informativo e educativo."
+      },
+      {
+        "etapa": "Exatidão jurídica",
+        "ok": true,
+        "obs": "Fundamentação exata na EC nº 141/2026 e art. 7º da CF/88."
+      }
+    ],
+    "alertas_oab": []
+  },
+  "imagens": [
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_01.jpg",
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_02.jpg",
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_03.jpg",
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_04.jpg",
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_05.jpg",
+    "posts/imagens/2026-11-14_fim-da-escala-6x1-nova-jornada-trabalho_06.jpg"
+  ]
+}
